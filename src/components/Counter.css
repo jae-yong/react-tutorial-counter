@@ -1,0 +1,20 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/button.min.css);
+
+.Counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Counter > span {
+  display: flex;
+  align-self: center;
+  font-size: 3em;
+  margin-right: 25px;
+}
+
+.Counter .ui.buttons {
+  display: flex;
+  width: 20%;
+  align-self: center;
+}
